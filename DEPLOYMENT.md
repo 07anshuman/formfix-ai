@@ -215,11 +215,11 @@ npm start
 cd dashboard && npm run dev
 ```
 
-## 📞 Support
+## Support
 
 - **Issues**: Create GitHub issue
 - **Documentation**: Check README.md
-- **Community**: GitHub Discussions
+
 
 ---
 
