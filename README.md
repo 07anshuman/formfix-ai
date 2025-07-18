@@ -159,7 +159,7 @@ formfix-ai/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with React, Node.js, and Tailwind CSS
 - AI-powered insights without external dependencies
