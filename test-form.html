@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FormFix SDK Test</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    form { max-width: 400px; margin: auto; }
+    label { display: block; margin-top: 1em; }
+    input, select, textarea { width: 100%; padding: 0.5em; margin-top: 0.2em; }
+    .help { color: #888; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h1>FormFix SDK Test Form</h1>
+  <p>Interact with the form below. <strong>Open your browser console</strong> to see FormFix metrics in real time.</p>
+  <form id="demo-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" aria-label="Name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" aria-label="Email">
+
+    <label for="position">Position <span class="help">(e.g., Manager, Developer)</span></label>
+    <input type="text" id="position" name="position" placeholder="Your job title" aria-label="Position">
+
+    <label for="company-size">Company Size</label>
+    <select id="company-size" name="company-size" aria-label="Company Size">
+      <option value="">Select...</option>
+      <option value="1-10">1-10</option>
+      <option value="11-50">11-50</option>
+      <option value="51-200">51-200</option>
+      <option value="201+">201+</option>
+    </select>
+
+    <label for="comments">Comments</label>
+    <textarea id="comments" name="comments" placeholder="Any additional info..." aria-label="Comments"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="formfix-sdk.js"></script>
+</body>
+</html> 
