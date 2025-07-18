@@ -390,7 +390,7 @@ function generateCustomSDK(forms) {
   `;
 }
 
-// (Optional) Endpoint to view all metrics (for dev/testing)
+// Endpoint to view all metrics (for dev/testing)
 app.get('/api/formfix/metrics', (req, res) => {
   res.json(metrics);
 });
