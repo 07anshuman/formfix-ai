@@ -1,4 +1,4 @@
-# FormFix 2.0 AI - Intelligent Form Analytics
+# FormFix AI - Intelligent Form Analytics
 
 > Adaptive, self-optimizing forms with AI-powered insights and friction detection.
 
